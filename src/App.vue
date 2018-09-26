@@ -16,8 +16,33 @@
     <br>
     <br>
     <router-view></router-view>
+    <footer>
+      <p class="text-center">Copyright 2018 Mitch McAffee</p>
+    </footer>
   </div>
 </template>
+
+<style>
+html{ height:100%; }
+body{ min-height:100%; padding:0; margin:0; position:relative; }
+
+/* Trick: */
+body {
+  position: relative;
+}
+
+body::after {
+  content: '';
+  display: block;
+  height: 50px; /* Set same as footer's height */
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  height: 50px;
+}
+</style>
 
 <script>
 export default {
