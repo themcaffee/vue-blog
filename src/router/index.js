@@ -10,6 +10,7 @@ Vue.use(Router)
 
 const routes = [
   { path: '/', name: 'root', component: Home },
+  { path: '/home/:page', name: 'home', component: Home},
   { path: '/posts/:postname', name: 'post', component: ViewSinglePost },
   { path: '*', component: Error404 }
 ]
