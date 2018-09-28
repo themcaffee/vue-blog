@@ -1,8 +1,13 @@
 <template>
   <div>
-    <router-link :to="{ name: 'post', params: { postname: componentName }}">
+    <router-link v-if="stub" :to="{ name: 'post', params: { postname: componentName }}">
       <h3>{{ title }} <small>{{ postDate }}</small></h3>
     </router-link>
+    <div v-if="!stub">
+      <h3>{{ title }} <small class="align-right">{{ postDate }}</small>
+        <hr>
+      </h3>
+    </div>
     <slot></slot>
   </div>
 </template>
