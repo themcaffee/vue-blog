@@ -12,7 +12,7 @@ const state = {
     { name: 'ThirdPost', title: 'Third post!', postdate: '09-27-2018'}
   ],
   // Number of posts to show per page on home
-  postsOnHome: 2,
+  postsOnHome: 5,
   // The current page that the user is viewing on the home page
   homePage: 1
 }
