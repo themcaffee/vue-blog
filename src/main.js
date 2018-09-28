@@ -13,8 +13,9 @@ Vue.use(BootstrapVue)
 
 Vue.config.productionTip = false
 
-import { Navbar } from 'bootstrap-vue/es/components'
+import { Navbar, Pagination } from 'bootstrap-vue/es/components'
 Vue.use(Navbar)
+Vue.use(Pagination)
 
 new Vue({
   router,

@@ -10,6 +10,7 @@
   // Import posts dynamically and only load them if actually used
   const FirstPost = () => import('@/posts/FirstPost')
   const SecondPost = () => import('@/posts/SecondPost')
+  const ThirdPost = () => import ('@/posts/ThirdPost')
 
   export default {
     name: "ViewSinglePost",
@@ -50,7 +51,8 @@
     },
     components: {
       FirstPost,
-      SecondPost
+      SecondPost,
+      ThirdPost
     }
   }
 </script>
