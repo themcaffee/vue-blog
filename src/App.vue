@@ -3,7 +3,10 @@
     <b-navbar toggleable="md">
       <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
 
-      <b-navbar-brand href="#">Mitch McAffee</b-navbar-brand>
+      <b-navbar-brand href="#">
+        <img id="header-img" src="./assets/wolf_wave_prisma_healed_small.jpg">
+        Mitch McAffee
+      </b-navbar-brand>
 
       <b-collapse is-nav id="nav_collapse">
         <b-navbar-nav class="ml-auto">
@@ -41,6 +44,11 @@ footer {
   position: absolute;
   bottom: 0;
   height: 50px;
+}
+#header-img {
+  height: 70px;
+  border-radius: 20px;
+  margin-right: 10px;
 }
 </style>
 
