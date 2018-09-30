@@ -1,6 +1,6 @@
 <template>
   <post :component-name="name" :title="title" :post-date="postDate" :stub="stub">
-    <p>Third post woo</p>
+    <p></p>
   </post>
 </template>
 
@@ -9,7 +9,7 @@
   import Post from '@/components/Post'
 
   export default {
-    name: 'ThirdPost',
+    name: "JingWang01",
     components: {
       Post
     },
