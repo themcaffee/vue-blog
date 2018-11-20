@@ -8,7 +8,7 @@
   import { mapState } from 'vuex'
 
   // Import posts dynamically and only load them if actually used
-  const FirstPost = () => import('@/posts/FirstPost')
+  const UnderConstruction = () => import('@/posts/UnderConstruction')
 
   export default {
     name: "ViewSinglePost",
@@ -48,7 +48,7 @@
       })
     },
     components: {
-      FirstPost
+      UnderConstruction
     }
   }
 </script>

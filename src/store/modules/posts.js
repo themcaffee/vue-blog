@@ -7,7 +7,7 @@ const state = {
   }
    */
   blogPosts: [
-    { name: 'FirstPost', title: 'First post!', postdate: '09-25-2018' }
+    { name: 'UnderConstruction', title: 'Site Under Construction', postdate: '11-19-2018'}
   ],
   // Number of posts to show per page on home
   postsOnHome: 5,
