@@ -7,9 +7,7 @@ const state = {
   }
    */
   blogPosts: [
-    { name: 'FirstPost', title: 'First post!', postdate: '09-25-2018' },
-    { name: 'SecondPost', title: 'Second post!', postdate: '09-24-2018' },
-    { name: 'ThirdPost', title: 'Third post!', postdate: '09-27-2018'}
+    { name: 'FirstPost', title: 'First post!', postdate: '09-25-2018' }
   ],
   // Number of posts to show per page on home
   postsOnHome: 5,
