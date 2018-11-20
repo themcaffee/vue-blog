@@ -13,6 +13,8 @@
           <b-nav-item href="/">Blog</b-nav-item>
           <b-nav-item href="https://github.com/themcaffee">Github</b-nav-item>
           <b-nav-item href="https://videos.audio" right>videos.audio</b-nav-item>
+          <b-nav-item href="https://www.instagram.com/mitchlikestodraw/" right>Art</b-nav-item>
+          <b-nav-item href="https://www.mixcloud.com/mitch-mcaffee/" right>Mixes</b-nav-item>
         </b-navbar-nav>
       </b-collapse>
     </b-navbar>
