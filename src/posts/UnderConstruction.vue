@@ -1,6 +1,6 @@
 <template>
   <post :component-name="name" :title="title" :post-date="postDate" :stub="stub">
-    <p>Please check back later while I add create some content :)</p>
+    <p>Please check back later while I add some content :)</p>
   </post>
 </template>
 
